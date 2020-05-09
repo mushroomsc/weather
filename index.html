@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Weather App</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- fontawesome -->
+  <link rel="stylesheet" type="text/css"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- stylesheet -->
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-light bg-light justify-content-between">
+      <a class="navbar-brand" href="#">
+        <i class="fa fa-sun-o" aria-hidden="true"></i>
+        Simple<strong>W</strong>eatherApp
+      </a>
+      <span id="date" class="lead">11:00AM | Mar 3, 2018</span>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search for a city..." aria-label="Search">
+        <button class="btn btn-primary" type="submit">Submit</button>
+        <span class="msg"></span>
+      </form>
+    </nav>
+    <div class="hero">
+    <section class="ajax-section">
+      <div class="container">
+        <ul class="cities"></ul>
+      </div>
+    </section>
+    <!-- javascript file -->
+    <script src="main.js"></script>
+    </div>
+</body>
+</html>
